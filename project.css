@@ -1,0 +1,13 @@
+ul{
+    background-image: linear-gradient(to right,rgb(117, 226, 236), #0775ce);
+}
+h3{
+    background-image: linear-gradient(to right,rgb(77, 192, 6), #82d2a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1{
+    background-image: linear-gradient(to right,rgb(255, 230, 0), rgb(255, 132, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

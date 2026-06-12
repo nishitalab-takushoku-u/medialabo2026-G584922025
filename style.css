@@ -1,0 +1,23 @@
+h1{
+    font-size: 50px;
+    background-image: linear-gradient(to left, aquamarine, skyblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgb(128, 0, 113) 1px 0 10px;
+    border: solid 5px rgb(3, 6, 234);
+}
+h2{
+    background-image: linear-gradient(to left, rgb(189, 11, 189), rgb(0, 14, 172));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgb(2, 2, 81) 5px 0 10px;
+    border-bottom:  dotted 10px rgb(92, 236, 67);
+}
+b{
+    background-image: linear-gradient(rgb(249, 99, 239));
+    text-shadow: rgb(7, 255, 32) 1px 1.2px 1.3px;
+    border: dashed rgb(165, 231, 169);
+}
+c{
+    font-style: italic;
+}
