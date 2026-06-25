@@ -1,0 +1,9 @@
+let b =document.querySelector("button#print");
+function greeting() {
+    let i = document.querySelector('input[name="shimei"]');
+    let shimei= i.value;
+    let aisatsu =("こんにちは"+shimei+"さん");
+    let p =document.querySelector('p#message');
+    p.textContent=aisatsu;
+}
+b.addEventListener('click', greeting);
