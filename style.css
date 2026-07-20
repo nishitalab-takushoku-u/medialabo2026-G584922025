@@ -13,6 +13,13 @@ h2{
     text-shadow: rgb(2, 2, 81) 5px 0 10px;
     border-bottom:  dotted 10px rgb(92, 236, 67);
 }
+h3{
+    background-image: linear-gradient(to left, rgb(23, 189, 11), rgb(0, 158, 172));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgb(81, 2, 32) 5px 0 10px;
+    border-bottom:  dotted 10px rgb(236, 157, 67);
+}
 b{
     background-image: linear-gradient(rgb(249, 99, 239));
     text-shadow: rgb(7, 255, 32) 1px 1.2px 1.3px;
