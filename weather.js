@@ -63,7 +63,6 @@ function printDom(data) {
 // 課題6-1 のイベントハンドラ sendRequest() の定義
 let b = document.querySelector('#sendRequest');
 let count=0;
-let l;
 b.addEventListener('click', sendRequest);
 function sendRequest() {        
   let dlt = document.querySelector('#result');    
