@@ -36,7 +36,7 @@ function hantei() {
       kaisu.textContent=kaisu2;
       if(kaisu2===3) {
         p =document.querySelector('p#result');
-        p.textContent="残念失敗です。挑戦回数を失いました。正解は"+kotae+"です。";
+        p.textContent="残念失敗です。挑戦回数を失いました。正解は"+kotae+"です。もうできません終わりです。";
       }else{
         kaisu.textContent=kaisu2;
         if(kotae<yoso){
