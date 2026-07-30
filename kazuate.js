@@ -27,11 +27,13 @@ function hantei() {
   if(kaisu2<4){
     if(kaisu2===3 && yoso===kotae) {
         p =document.querySelector('p#result');
-        p.textContent="正解";
+        p.textContent="正解終わりです。";
+        kaisu2=3;
     }else if(yoso===kotae){
       kaisu.textContent=kaisu2;
       p =document.querySelector('p#result');
-      p.textContent="正解";
+      p.textContent="正解終わりです。";
+      kaisu2=3;
     }else {
       kaisu.textContent=kaisu2;
       if(kaisu2===3) {
