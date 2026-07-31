@@ -27,18 +27,18 @@ function hantei() {
   if(kaisu2<4){
     if(kaisu2===3 && yoso===kotae) {
         p =document.querySelector('p#result');
-        p.textContent="正解終わりです。";
+        p.textContent="正解です．おめでとう!";
         kaisu2=3;
     }else if(yoso===kotae){
       kaisu.textContent=kaisu2;
       p =document.querySelector('p#result');
-      p.textContent="正解終わりです。";
+      p.textContent="正解です．おめでとう!";
       kaisu2=3;
     }else {
       kaisu.textContent=kaisu2;
       if(kaisu2===3) {
         p =document.querySelector('p#result');
-        p.textContent="残念失敗です。挑戦回数を失いました。正解は"+kotae+"です。もうできません終わりです。";
+        p.textContent="まちがい．残念でした答えは"+kotae+"です．";
       }else{
         kaisu.textContent=kaisu2;
         if(kotae<yoso){
